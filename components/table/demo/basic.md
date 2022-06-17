@@ -28,7 +28,7 @@ interface DataType {
 
 const columns: ColumnsType<DataType> = [
   {
-    title: 'Name',
+    title: 'Namename',
     dataIndex: 'name',
     key: 'name',
     render: text => <a>{text}</a>,
